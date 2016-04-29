@@ -1,0 +1,2 @@
+# FragmentSwitchDemo
+使用ListView作为SwitchBar来切换Fragment，可以创建指定Fragment模板，Fragment的切换不销毁。
