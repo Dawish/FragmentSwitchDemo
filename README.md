@@ -8,4 +8,5 @@
 中间的按钮得到了焦点
 ![Alt text](./device-2016-04-29-3.png)
 在手机中的使用demo的gif录屏，宽度按比重分配
+
 ![Alt text](./screen.gif)
