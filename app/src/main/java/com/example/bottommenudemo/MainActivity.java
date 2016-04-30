@@ -32,24 +32,24 @@ public class MainActivity extends AppCompatActivity {
         Log.d("danxx", "onCreate--->");
         tabList = (ListView) findViewById(R.id.tabList);
         /************************填充假数据，可以根据服务器下发的数据来初始化数据(一定得给出模板类型layout_code)*************************/
-        FragmentBean backGround = new FragmentBean(Common.BACKGROUND,0,"背景设置-->0","http://www.dusa.com/da/index.jsp");
+        FragmentBean backGround = new FragmentBean(Common.BACKGROUND,0,"背景0","http://www.dusa.com/da/index.jsp");
         fragmentData.add(backGround);
-        FragmentBean recommend = new FragmentBean(Common.RECOMMEND,1,"推荐设置-->1","http://www.dusa.com/food/list.jsp");
+        FragmentBean recommend = new FragmentBean(Common.RECOMMEND,1,"推荐>1","http://www.dusa.com/food/list.jsp");
         fragmentData.add(recommend);
-        FragmentBean screensaver = new FragmentBean(Common.SCREENSAVER,2,"背景设置-->2" ,"http://www.meitu.com/pic/con.jsp");
+        FragmentBean screensaver = new FragmentBean(Common.SCREENSAVER,2,"背景>2" ,"http://www.meitu.com/pic/con.jsp");
         fragmentData.add(screensaver);
-        FragmentBean about = new FragmentBean(Common.ABOUT,3,"关于开发-->3","http://www.alibaba.com/good/index.php");
+        FragmentBean about = new FragmentBean(Common.ABOUT,3,"关于>3","http://www.alibaba.com/good/index.php");
         fragmentData.add(about);
 
-        FragmentBean backGround2 = new FragmentBean(Common.BACKGROUND,4,"背景设置-->4","http://www.dusa.com/da/index.jsp");
+        FragmentBean backGround2 = new FragmentBean(Common.BACKGROUND,4,"背景>4","http://www.dusa.com/da/index.jsp");
         fragmentData.add(backGround2);
-        FragmentBean about2 = new FragmentBean(Common.ABOUT,5,"关于开发-->5","http://www.alibaba.com/good/index.php");
+        FragmentBean about2 = new FragmentBean(Common.ABOUT,5,"关于>5","http://www.alibaba.com/good/index.php");
         fragmentData.add(about2);
-        FragmentBean recommend2 = new FragmentBean(Common.RECOMMEND,6,"推荐设置-->6","http://www.dusa.com/food/list.jsp");
+        FragmentBean recommend2 = new FragmentBean(Common.RECOMMEND,6,"推荐>6","http://www.dusa.com/food/list.jsp");
         fragmentData.add(recommend2);
-        FragmentBean screensaver2 = new FragmentBean(Common.SCREENSAVER,7,"背景设置-->7" ,"http://www.meitu.com/pic/con.jsp");
+        FragmentBean screensaver2 = new FragmentBean(Common.SCREENSAVER,7,"背景>7" ,"http://www.meitu.com/pic/con.jsp");
         fragmentData.add(screensaver2);
-        FragmentBean about3 = new FragmentBean(Common.ABOUT,8,"关于开发-->8","http://www.alibaba.com/good/index.php");
+        FragmentBean about3 = new FragmentBean(Common.ABOUT,8,"关于>8","http://www.alibaba.com/good/index.php");
         fragmentData.add(about3);
 
 
